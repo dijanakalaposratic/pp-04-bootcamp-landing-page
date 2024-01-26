@@ -13,3 +13,9 @@ body::before {
 .text-justify {
 	text-align: justify;
 }
+
+@media screen and (max-width: 576px) {
+	.xs-screen {
+		text-align: center;
+	}
+}
